@@ -1,0 +1,23 @@
+df = pd.read_csv("hotel.csv")
+print(df.head())
+print(df.columns)
+
+df = pd.read_csv("hotel.csv")
+
+import pandas as pd
+df = pd.read_csv("hotel.csv")
+print(df.columns)
+
+import matplotlib.pyplot as plt
+import pandas as pd
+
+df = pd.read_csv("hotel.csv")
+
+plt.plot(df["column1"], df["column2"])
+plt.xlabel("column1")
+plt.ylabel("column2")
+plt.title("Line Graph")
+plt.show()
+
+
+#rule of thumb: minimize text + have pictures + talk about it
